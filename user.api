@@ -1,0 +1,23 @@
+//Result 统一响应
+type Result {
+	Code    int         `json:"code"`
+	Message string      `json:"message"`
+	Data    interface{} `json:"data,omitempty"`
+	Page    interface{} `json:"page,omitempty"`
+}
+
+type (
+	InfoReq {
+		Id string `json:"id"`
+	}
+
+	InfoReply {
+		Id   string `json:"id"`
+		Name string `json:"name"`
+	}
+)
+
+service user-api {
+	@handler userInfo
+	post /user/info (InfoReq) returns (InfoReply)
+}
