@@ -3,8 +3,8 @@ package logic
 import (
 	"context"
 
-	"subModule/userRpc/internal/svc"
-	"subModule/userRpc/userRpc"
+	"subTree/userRpc/internal/svc"
+	"subTree/userRpc/userRpc"
 
 	"github.com/tal-tech/go-zero/core/logx"
 )

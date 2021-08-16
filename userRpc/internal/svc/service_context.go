@@ -1,6 +1,6 @@
 package svc
 
-import "subModule/userRpc/internal/config"
+import "subTree/userRpc/internal/config"
 
 type ServiceContext struct {
 	Config config.Config

@@ -4,7 +4,7 @@ package handler
 import (
 	"net/http"
 
-	"subModule/userApi/internal/svc"
+	"subTree/userApi/internal/svc"
 
 	"github.com/tal-tech/go-zero/rest"
 )

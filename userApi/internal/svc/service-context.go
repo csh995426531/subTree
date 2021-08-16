@@ -2,8 +2,8 @@ package svc
 
 import (
 	"github.com/tal-tech/go-zero/zrpc"
-	"subModule/userApi/internal/config"
-	"subModule/userRpc/userrpcclient"
+	"subTree/userApi/internal/config"
+	"subTree/userRpc/userrpcclient"
 )
 
 type ServiceContext struct {

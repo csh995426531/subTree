@@ -2,10 +2,10 @@ package logic
 
 import (
 	"context"
-	"subModule/userRpc/userrpcclient"
+	"subTree/userRpc/userrpcclient"
 
-	"subModule/userApi/internal/svc"
-	"subModule/userApi/internal/types"
+	"subTree/userApi/internal/svc"
+	"subTree/userApi/internal/types"
 
 	"github.com/tal-tech/go-zero/core/logx"
 )

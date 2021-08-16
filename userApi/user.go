@@ -4,9 +4,9 @@ import (
 	"flag"
 	"fmt"
 
-	"subModule/userApi/internal/config"
-	"subModule/userApi/internal/handler"
-	"subModule/userApi/internal/svc"
+	"subTree/userApi/internal/config"
+	"subTree/userApi/internal/handler"
+	"subTree/userApi/internal/svc"
 
 	"github.com/tal-tech/go-zero/core/conf"
 	"github.com/tal-tech/go-zero/rest"
